@@ -1,0 +1,17 @@
+// import the classes needed
+%%
+%{ 
+// internal code such as variable declararions to be used in RE section
+    public static void main(String argv[]) throws java.io.IOException {
+      A2 yy = new A2(new FileInputStream(new File("A2.input")));
+      //add code for scanning
+      //create the a file writer
+      //the following write the counters to the file.
+      fw.write("keywords: "+new Integer(k).toString()+"\n");
+      // write other things
+      fw.close();
+      }
+%}
+//add some directives here
+%%
+// write your regular expressions and the actions (counting)
